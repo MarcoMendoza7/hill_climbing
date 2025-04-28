@@ -1,0 +1,75 @@
+/* Fondo pastel con degradado naranja-verde */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #fffbe6, #e6ffe6); /* naranja pastel → verde pastel */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Contenedor central */
+.container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+    max-width: 600px;
+    width: 90%;
+    text-align: center;
+    border: 3px solid #ffcc80;
+}
+
+/* Título centrado y en mayúsculas */
+h1 {
+    text-transform: uppercase;
+    color: #2e7d32;
+    margin-bottom: 25px;
+}
+
+/* Lista de checkboxes vertical */
+.checkbox-list {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.checkbox-list li {
+    margin-bottom: 10px;
+}
+
+/* Botón centrado y estilizado */
+.btn-container {
+    text-align: center;
+}
+
+button {
+    background-color: #ff9800;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #f57c00;
+    transform: scale(1.05);
+}
+
+/* Resultado visual atractivo */
+.resultado {
+    margin-top: 30px;
+    padding: 20px;
+    border: 2px dashed #66bb6a;
+    background-color: #f0fff0;
+    border-radius: 10px;
+}
+
+.resultado h2 {
+    color: #388e3c;
+}
